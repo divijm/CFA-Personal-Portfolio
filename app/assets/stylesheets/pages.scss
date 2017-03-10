@@ -1,0 +1,165 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Caveat|Homemade+Apple|Open+Sans|Permanent+Marker');
+
+.navbar-default {
+  // background-color: transparent;
+  background-color: rgba (0,0,0,0);
+  border: transparent;
+  position: fixed;
+  width:100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+            padding: 0;
+        }
+    }
+
+.name {
+  font-family: 'Permanent Marker';
+  font-size: 50pt;
+}
+
+.skills {
+  font-family: 'Caveat';
+  font-size: 30pt;
+}
+
+.top-div {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.img-divij {
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.img {
+  vertical-align: middle;
+}
+
+.mini-intro-text {
+  padding-top: 20px;
+}
+
+.scroll-button {
+  padding-top: 50px;
+}
+
+.heading {
+  font-family: 'Caveat';
+  font-size: 40pt;
+}
+
+p {
+font-family: 'Open Sans';
+font-size: 12pt;
+}
+
+body {
+  	background: url("/assets/blue_bg.png");
+
+  	background-repeat: no-repeat;
+
+    background-position: -500px 20px;
+}
+
+.quotes {display: none;}
+
+.contentDiv {
+    position: relative;
+    margin-top: 95px;
+}
+
+@keyframes bouncing {
+    0% {bottom: 0px;}
+    50% {bottom: 2px;}
+    100% {bottom: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 150px;
+  background: yellow;
+}
+
+.flex-item {
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.box {
+  background: red;
+  opacity: 0.1;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+
+  width: 100%;
+  height: 260px;
+  margin: 20px;
+}
+
+.box-skills {
+  // background: blue;
+  // opacity: 0.015;
+  // color: white;
+  // font-size: 20px;
+  // text-align: center;
+  // line-height: 100px;
+
+  width: 50%;
+  height: 150px;
+  margin: 20px;
+}
+
+#contact {
+
+}
+
+#footer {
+  margin-top: 80px;
+}
+
+#about {
+margin: 0px 100px;
+}
+
+.small-box {
+margin: 0px 400px;
+}
+
+.contact-row {
+  margin-top: 30px;
+}
+
+.heading-projects {
+  margin-top: 50px;
+}
