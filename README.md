@@ -14,7 +14,7 @@ This portfolio went through multiple iterations in the design stages and was inf
 
 ## How to access
 
-https://divij.mehra.com
+https://website-portfolio-dm.herokuapp.com/
 Best used with Google Chrome.
 
 ## Design
@@ -48,6 +48,14 @@ I hadn't thought of having a logo until the very last moment and hence there was
 
 ![Imgur](http://i.imgur.com/fjqpqYO.png)
 
+## Typography and Icons
+
+I used Google Fonts:
+- Permanent Marker -
+- Slanted
+
+Icons:
+
 ## Coding  
 
 Getting started from scratch was difficult for me personally. There was so much to do and I often got lost in the finer details that I didn't make too much progress initially.
@@ -56,12 +64,23 @@ This was a mistake I soon learned from however, and instead of focusing on the c
 
 There were many problems I faced (and still do haha) during the coding process:
 - Flexbox - With some learning of Flexbox and having used it on other small projects before, I thought to utilise Flex on my personal website for better alignment. However, it caused my many problems and more alignment issues than I had expected.
-- Smooth-scroll -
-- UX Design -
+- Smooth-scroll - I tried to download a Smooth-scroll function through an example code online - but I kept loading in multiple files and hence
+- Background Positioning - show through screenshots. Essentially the background I have at the moment which I settled with, is an accident.
+- UX Design - The UX in this site is average at the moment as the text does not pop out enough and as a user it is confusing as to where to click and proceed. I will be going through a short-course on this to improve on further projects.
+- Getting confused with too much code - so to fix this, I utilized partials and split every html section separately and just had an index file which called the different sections.
 - Thoughts - I wanted to put a lot of content here, but there simply proved to be no time. I would be adding in a skeleton to this section very shortly so I can start building SEO and credibility to my website.
+
+Things to improve upon:
+- Scrolling
+- Alignment of boxes
+- Improve responsiveness
+- Better typography
+- Include my thoughts
+- Make it have a more professional feel to it but still have playful vibes
+- Loading times
 
 ## Looking ahead
 
 This website was the first project I had worked on by myself from scratch which utilized both HTML and CSS. It is quite a simple attempt but something I am happy to have got through! I have learnt a lot through this project and would be updating my website very shortly!
 
-Hope you enjoy! :) 
+Hope you enjoy! :)

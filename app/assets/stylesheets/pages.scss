@@ -111,15 +111,17 @@ margin-top: 100px;
 //
 
 // Projects Page and Projects Snapshot
+.img-projects {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .box {
-  background: red;
-  opacity: 0.1;
   color: white;
   font-size: 20px;
   text-align: center;
   line-height: 100px;
-  width: 100%;
+  width: auto;
   height: 260px;
   margin: 20px;
 }
@@ -159,7 +161,7 @@ transform: translate(-50%, -50%);
 }
 
 #footer {
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 #about {
