@@ -11,7 +11,7 @@ font-size: 12pt;
 }
 
 body {
-  	background: url("/assets/blue_bg.png");
+  	background: url("http://res.cloudinary.com/ddhuus7k5/image/upload/v1489293022/blue_bg.jpg");
 
   	background-repeat: no-repeat;
 
@@ -23,8 +23,6 @@ body {
 // NAVBAR CSS
 
 .navbar-default {
-  // background-color: transparent;
-  background-color: rgba (0,0,0,0);
   border: transparent;
   position: fixed;
   width:100%;
@@ -57,7 +55,7 @@ body {
   font-size: 50pt;
 }
 
-#wrapper {
+#arrow-icon {
 margin-top: 100px;
 }
 
@@ -66,7 +64,7 @@ margin-top: 100px;
   font-size: 30pt;
 }
 
-.top-div {
+.divij-main {
   margin-top: 150px;
   margin-bottom: 20px;
 }
@@ -89,7 +87,7 @@ margin-top: 100px;
 
 .quotes {display: none;}
 
-.contentDiv {
+.contentarrow {
     position: relative;
     margin-top: 95px;
 }
@@ -101,7 +99,7 @@ margin-top: 100px;
 }
 
 .arrow {
-    animation: bouncing 1s infinite ease-in-out;
+    animation: bouncing 0.85s infinite ease-in-out;
     bottom: 0;
     display: block;
     height: 50px;
@@ -112,21 +110,7 @@ margin-top: 100px;
 }
 //
 
-//
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  height: 150px;
-  background: yellow;
-}
-
-.flex-item {
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-}
+// Projects Page and Projects Snapshot
 
 .box {
   background: red;
@@ -135,35 +119,47 @@ justify-content: space-around;
   font-size: 20px;
   text-align: center;
   line-height: 100px;
-
   width: 100%;
   height: 260px;
   margin: 20px;
 }
 
 .box-skills {
-  // background: blue;
-  // opacity: 0.015;
-  // color: white;
-  // font-size: 20px;
-  // text-align: center;
-  // line-height: 100px;
-
   width: 50%;
   height: 150px;
   margin: 20px;
 }
 
+// Projects-Snapshot
+
 .projects {
-  opacity: 0.5;
+  opacity: 1;
+
 }
 
 .projects:hover {
-  opacity: 1;
+  opacity: 0.5;
+}
+
+.projects #text-content {
+  display: none;
+}
+
+.projects:hover #text-content{
+display: block;
+color: black;
+font-size: 35px;
+font-weight: bold;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+
 }
 
 #footer {
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 #about {
@@ -178,17 +174,47 @@ margin: 0px 400px;
   margin-top: 30px;
 }
 
-.heading-projects {
-  margin-top: 50px;
+#projects {
+  margin-top: 55px;
 }
 
 .projects.p {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
+  position:relative;
+  bottom:30px;
+  left:0px;
+  visibility:hidden;
 }
 
 .projects:hover .text {
-visibility:visible;
+  visibility:visible;
 }
+
+#thoughts {
+  margin-top: 55px;
+}
+
+// .flex-container {
+//   display:flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+//   align-items: center;
+// }
+//
+// .flex-iterm {
+//   width: 300px;
+//   height: auto;
+//   text-align: center;
+//   margin: 10px;
+//   flex-grow: 1;
+//   flex-shrink: 1;
+// }
+//
+// .contact-icons {
+//   margin: 5px;
+// }
+//
+// .container-portfolio {
+// display: flex;
+// flex-wrap: wrap;
+// }
