@@ -3,6 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url('https://fonts.googleapis.com/css?family=Caveat|Homemade+Apple|Open+Sans|Permanent+Marker');
 
+// Body
+
+p {
+font-family: 'Open Sans';
+font-size: 12pt;
+}
+
+body {
+  	background: url("/assets/blue_bg.png");
+
+  	background-repeat: no-repeat;
+
+    background-position: -500px 20px;
+}
+
+//
+
+// NAVBAR CSS
+
 .navbar-default {
   // background-color: transparent;
   background-color: rgba (0,0,0,0);
@@ -13,7 +32,7 @@
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 7px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -24,9 +43,22 @@
         }
     }
 
+.nav-right-text {
+  font-family: 'Caveat';
+  font-size: 17pt;
+}
+
+//
+
+// Intro Section
+
 .name {
   font-family: 'Permanent Marker';
   font-size: 50pt;
+}
+
+#wrapper {
+margin-top: 100px;
 }
 
 .skills {
@@ -43,36 +75,16 @@
     display: block;
     width: 20%;
     height: auto;
-}
-
-.img {
-  vertical-align: middle;
+    opacity: 0.8;
 }
 
 .mini-intro-text {
   padding-top: 20px;
 }
 
-.scroll-button {
-  padding-top: 50px;
-}
-
 .heading {
   font-family: 'Caveat';
   font-size: 40pt;
-}
-
-p {
-font-family: 'Open Sans';
-font-size: 12pt;
-}
-
-body {
-  	background: url("/assets/blue_bg.png");
-
-  	background-repeat: no-repeat;
-
-    background-position: -500px 20px;
 }
 
 .quotes {display: none;}
@@ -98,7 +110,9 @@ body {
     position: absolute;
     width: 50px;
 }
+//
 
+//
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -140,8 +154,12 @@ justify-content: space-around;
   margin: 20px;
 }
 
-#contact {
+.projects {
+  opacity: 0.5;
+}
 
+.projects:hover {
+  opacity: 1;
 }
 
 #footer {
@@ -162,4 +180,15 @@ margin: 0px 400px;
 
 .heading-projects {
   margin-top: 50px;
+}
+
+.projects.p {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+.projects:hover .text {
+visibility:visible;
 }
