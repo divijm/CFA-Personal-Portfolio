@@ -14,7 +14,7 @@ This portfolio went through multiple iterations in the design stages and was inf
 
 ## How to access
 
-https://website-portfolio-dm.herokuapp.com/
+https://website-portfolio-dm.herokuapp.com/. 
 Best used with Google Chrome.
 
 ## Design
@@ -28,7 +28,7 @@ I created sections on:
 - key elements - this was the top elements which I had to ensure were in my website (e.g. about me, contact etc.)
 - things to do - I used this to work through the list of things I had to get done in order of urgency.
 
-[ADD TRELLO PICTURE HERE:]
+![Imgur](http://i.imgur.com/P2uSWVh.png)
 
 After some initial thoughts, I created a low-fidelity mock-up using Balsamiq3, as shown here through the screenshots.
 
@@ -51,10 +51,13 @@ I hadn't thought of having a logo until the very last moment and hence there was
 ## Typography and Icons
 
 I used Google Fonts:
-- Permanent Marker -
+- Permanent Marker
 - Slanted
 
 Icons:
+- Font Awesome (http://fontawesome.io/icons/)
+- Flat Icons (http://www.flaticon.com/categories/web)
+- Typicons (http://www.typicons.com)
 
 ## Coding  
 
